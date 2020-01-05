@@ -5,18 +5,8 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: naija-statup-guide
-  label: page
-  create: all
-  match: "**/*"
-- type: directory
-  path: naija-startup-guide/public
-  label: Blog
-  create: all
-  match: "**/*"
-- type: directory
-  path: naija-startup-guide/2019/06/04/6-RELIABLE-DELIVERY-COMPANIES-FOR-SMALL-BUSINESSES-IN-NIGERIA-2019
-  label: Blog
+  path: naija-startup-guide/source/_posts
+  label: Posts
   create: all
   match: "**/*"
 upload_dir: uploads
